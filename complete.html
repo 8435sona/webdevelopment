@@ -1,0 +1,309 @@
+<html>
+<body><h1 align="center"><u>Basic Tag</u></h1>
+<head>This optional tag is use to prepare heading for web page under the tag one use following tags </head>
+<title> title this page</title>
+<h1>heading</h1>
+<h2>heading</h2>
+<h3>heading</h3>
+<h4>heading</h4>
+<h5>heading  &nbsp &nbsp &nbsp &nbsp             hhhhhh</h5>
+<h6>heading</h6>
+<p>paragraph written</p>
+
+<!--<hr>horizontal rular
+      attributes
+            color=anycolor
+            width=[n%]/[npx]
+            align=left/right/center
+            &nbsp (new blank space)
+
+-->
+<s>strikethru</s>
+<!--
+<font></font>
+face="fontname"
+size=+-n
+color=anycolor-->
+<hr color="red">
+<h1 align="center"><u>Image</u></h1>
+<center><img src="Desert.jpg" title="m desert hu" width="30%" height="20%"></center>
+<!--alt/title==same
+<ul>unordered list
+type="circle/disc/square"
+<li>list: to add items in unordered list
+<ol> ordered list
+<ol type="A" start="10">derert</ol>
+<li>dert</li>
+<li>dert</li>-->
+<hr color="red">
+<h1 align="center"><u>List</u></h1>
+<ul type="disc">
+      <li>waterfall</li>
+     <ol type="A">
+           <li>number</li>
+           <ol type="1">
+                 <li>
+                       member
+                 </li>
+                 <li>member</li>
+
+           </ol>
+           <li>number</li>
+           <li>number</li>
+
+     </ol>
+
+</ul>
+<!--
+<embed>
+use to insert audio,video,flash files and pdf
+src=filename
+width=n/n%
+height=n/n%
+playcount=n only in case of audio video
+autostart=true/false by default true-->
+<hr color="red">
+<h1 align="center"><u>video</u></h1>
+<embed src="Billo Bagge Billeyan.mp4" autoplay="True" ></embed><br>
+<!-- <a>anchor
+href="url"
+target=self
+
+<a href="www.google.com"> open</a>
+<iframe>
+src="url"
+width"n/n%"
+height="n/n%"
+frameborder=0/1 default 1
+name= anyname-->
+<hr color="red">
+<h1 align="center"><u>Anchor Tag</u></h1>
+<a href="https://www.w3schools.com" target="mw"> open</a>
+<iframe name="mw" frameholder="1"></iframe><br>
+<hr color="red">
+<h1 align="center"><u>iframe Tag</u></h1>
+<a href="https://www.w3schools.com" target="_blank">Visit W3Schools</a><br>
+<iframe src="https://www.w3schools.com" title="W3Schools Free Online Web Tutorials">
+</iframe>
+
+<!--                                  <table>
+      cellspacing=n
+      cellpadding=n
+      width=n/n%
+      bgcolor=color
+      background=any image file
+
+under the table tag one can use folloing tags
+<caption> heading
+<tr> table row
+      <th> table heading / column name
+            <td> table data -->
+
+<hr color="red" size="2">
+<h1 align="center"><u>Table Tag</u></h1>
+<table border="1" width="80%" >
+      <caption><b>This is table</b></caption>
+<tr>
+      <th>
+            name
+      </th>
+      <th>
+            number
+      </th>
+      <th>
+            addres
+     </th>
+</tr>
+<tr align="center">
+      <td>
+            dilip
+      </td>
+      <td>
+            12305
+      </td>
+      <td>
+            morar
+      </td>
+</tr>
+<tr bgcolor="red" align="center">
+      <td>
+            akash
+      </td>
+      <td>
+            4564789
+      </td>
+      <td>
+            thatipur
+      </td>
+
+</tr>
+</table>
+
+
+
+<!--             <input> tag
+to design ui attributes
+1) Type= text/password/radio/checkbox/hidden file/sumbit/reset /button/email/number data/date time/time
+2) name= anyname
+3) id = id
+4) value= anyvalue
+5) readonly= true/false
+6) checked= radio/checkbox
+7) placeholder = any text
+8) size = n
+
+<textarea></textarea>
+rows=n
+column=n
+name=anyname
+id=anyid-->
+<hr color="red">
+<h1 align="center"><u>input tags \ form</u></h1>
+<form>
+<table>
+      <tr>
+            <td>
+                  <b>name: </b>
+            </td>
+            <td>
+                   <input type="text" pattern="[a-z]{10}" placeholder="first name">
+                   <input type="text" placeholder="last name">
+                  </td>
+      </tr>
+      <tr>
+            <td>DOB</td>
+            <td>
+                  <input type="date">
+            </td>
+
+      </tr>
+      <tr>
+            <td>
+                  email
+            </td>
+            <td>
+                  <input type="email" placeholder="email">
+            </td>
+      </tr>
+      <tr>
+            <td>
+                  Gender
+            </td>
+            <td>
+                  <input type="radio" name="ge" value="male">male
+                  <input type="radio" name="ge" value="female">female
+            </td>
+      </tr>
+      <tr>
+            <td>address</td>
+            <td>
+                  <textarea rows="2" column="3" placeholder="address"></textarea>
+            </td>
+      </tr>
+      <tr>
+            <td>
+                  number
+            </td>
+            <td>
+                  <input type="number" max="10">
+            </td>
+      </tr>
+      <tr>
+            <td>password</td>
+            <td>
+                  <input type="password" >
+            </td>
+
+      </tr>
+      <tr>
+            <td>
+                  week
+            </td>
+            <td>
+                  <input type="week">
+            </td>
+      </tr>
+      <tr>
+            <td>interest</td>
+            <td>
+                  <input type="checkbox">python
+                  <input type="checkbox">node.js
+
+            </td>
+
+      </tr>
+      <tr>
+            <td>
+                  img file
+            </td>
+            <td>
+                  <input type="file">
+            </td>
+      </tr>
+      <tr>
+            <td>
+                  states
+            </td>
+            <td>
+                  <select name="states">
+                  <option>mp</option>
+                  <option>up</option>
+                  <option>ap</option>
+                  <option>ap</option>
+                  <option>ap</option>
+                  <option>ap</option>
+                  <option>ap</option>
+                  </select>
+            </td>
+      </tr>
+      <tr>
+            <td> submit</td>
+            <td>
+                  <input type="submit">
+                  <input type="reset">
+
+            </td>
+      </tr>
+</table>
+</form>
+<!--<select> tag to create dropdown/list
+      name=anytime
+      id=anyid
+      size= n in case of list box
+      multiple in case of list box
+under the select tag one can use <option> tag to add item
+      attributes
+           value = anyvalue-->
+
+
+
+
+<!-- <form> tag
+      use to bind the ui into single unit(encapsulation)
+attributes
+action=url
+use to move the control to specified url when user click on submit button
+
+mathod= get/post/put/patch/delete
+get- used to small information show all the parameters and its value on address bar
+post- used for large information will not show parameters names and its value on address bar
+
+enctype="multipart/form-data"
+
+
+required
+regular expression
+pattern
+[a-z] will allow only single lower case letter
+[a-z]+ allow multiple lower character
+[a-z]{10} allow 10 characters in lower case
+[a-z]{1,10}
+[a-z]{10,}
+[a-z A-Z]+
+[d-m]+
+[kpqwer]+
+[aeious]+
+[0-9]{10}
+-->
+</body>
+</html>
