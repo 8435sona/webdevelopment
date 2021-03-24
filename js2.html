@@ -1,0 +1,18 @@
+<script>
+function call()
+{
+alert("hello" +txt.value)
+result.innerHTML="hello" +txt.value
+}
+function reset()
+{
+txt.value=" "
+result.innerHTML="see here..."
+}
+</script>
+<html>
+<input type="text" id="txt">
+<input type="button" value="clickhere" onclick="call()"><br><br>
+<input type="button" value="clear" onclick="reset()"><br><br>
+<div id="result">see here...</div>
+</html>
